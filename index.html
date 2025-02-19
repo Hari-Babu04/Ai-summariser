@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
       <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤖</text></svg>">
-    
+        <link rel="stylesheet" href="styles.css" />
     <title>AI Text Summarizer</title>
   </head>
 
@@ -41,6 +41,18 @@
         </div>
       </div>
     </section>
+    <section id="api-key-section" class="api-key-container">
+        <h2>Enter Your Gemini API Key</h2>
+  
+        <p>Save your API key securely to use the text summarizer.</p>
+  
+        <input type="text" id="api-key-input" placeholder="Enter API Key..." />
+  
+        <button id="save-api-key">Save API Key</button>
+  
+        <p id="api-key-status" class="status-message"></p>
+      </section>
+  
 
 
     </body>
